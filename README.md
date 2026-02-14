@@ -2,6 +2,7 @@
 Enterprise-Grade Email Security Analysis Dashboard
 Email Detector Pro is an advanced, AI-driven security tool designed to classify electronic communications into Spam or Ham (Safe) with high precision. Built using a robust Machine Learning pipeline and a cutting-edge "Cyber-Aura" dashboard, it provides real-time threat intelligence for communication safety.
 
+## LIVE DEMO  https://spamemaildetectorinsharah.streamlit.app/
 ## Key Features
 Pattern Recognition Engine: Leverages a Multinomial Naive Bayes algorithm optimized for high-dimensional text data.
 
@@ -74,3 +75,4 @@ Distributed under the MIT License. See LICENSE for more information.
 
 
 Developed with precision by INSHARAH SYED
+
