@@ -27,35 +27,38 @@ Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
 Styling: Custom CSS3 with Google Font "Plus Jakarta Sans"
 
 ## Repository Structure
-Plaintext
+```Plaintext
 ├── models/
 │   ├── spam_model.pkl        # Pre-trained Classification Model
 │   └── tfidf_vectorizer.pkl  # Fitted Feature Extraction Object
 ├── app.py                    # Main Application Entry Point
 ├── requirements.txt          # Production Dependency Manifest
 └── README.md                 # Project Documentation
+```
 ## Installation & Usage
 Follow these steps to deploy the system locally:
 
 Clone the Repository
 
-Bash
+```Bash
 git clone https://github.com/your-username/Email-Detector-Pro.git
 cd Email-Detector-Pro
+```
 Initialize Virtual Environment (Optional but Recommended)
 
-Bash
+```Bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Dependencies
-
-Bash
+```
+```Bash
 pip install -r requirements.txt
+```
 Launch the Application
 
-...Bash
+```...Bash
 streamlit run app.py
-...
+```
 
 ⚙️ How It Works
 The system operates through a three-stage pipeline:
@@ -68,5 +71,6 @@ Visual Reporting: Results are rendered via a custom CSS dashboard, displaying th
 
 🛡️ License
 Distributed under the MIT License. See LICENSE for more information.
+
 
 Developed with precision by INSHARAH SYED
